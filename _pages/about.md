@@ -13,20 +13,13 @@ I am currently interning at [THUKEG](https://keg.cs.tsinghua.edu.cn/) under the 
 I look forward to internship and summer research opportunities in related fields.
 
 
-### **News**
+### News
 
-**Dec 2024**  Selected for the Tsinghua University Disruptive Innovation Talent Program.
-
-**Oct 2024**  Launched a curated repository of research papers on the mechanisms of large language models—feel free to explore [here](https://github.com/LeoJ-xy/Towards-LLM-Intelligence)!
-
-**Oct 2024**  Awarded the Tsinghua University Technological Innovation Scholarship and Social Work Scholarship.
-
-**Sep 2024**  Received funding from the Beijing Natural Science Foundation (Undergraduate Category A).
-
-**June – Aug 2024**  Conducted a research internship at FMRIB, University of Oxford.
-
-**May 2024**  Selected for the Tsinghua University Spark Scientific and Technological Innovation Fellowship.
-
-**April 2024**  Granted funding under the Tsinghua University Academic Advancement Program (Category A).
-
-**Oct 2023**  Honored with the National Scholarship of China.
+* Dec 2024: I was selected for the Tsinghua University Disruptive Innovation Talent Program.
+* Oct 2024: I launched a curated repository of research papers on the mechanisms of large language models—[Explore the repository here](https://github.com/LeoJ-xy/Towards-LLM-Intelligence).
+* Oct 2024: I was awarded the Tsinghua University Technological Innovation Scholarship and Social Work Scholarship.
+* Sep 2024: I received funding from the Beijing Natural Science Foundation (Undergraduate Category A).
+* June – Aug 2024: I conducted a research internship at FMRIB, University of Oxford.
+* May 2024: I was selected for the Tsinghua University Spark Scientific and Technological Innovation Fellowship.
+* April 2024: I was granted funding under the Tsinghua University Academic Advancement Program (Category A).
+* Oct 2023: I was honored with the National Scholarship of China.
