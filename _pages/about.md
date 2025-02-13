@@ -12,9 +12,10 @@ I am currently interning at [THUKEG](https://keg.cs.tsinghua.edu.cn/) under the 
 
 I look forward to internship and summer research opportunities in related fields.
 
-
 ### News
 
+* Jan 2025: We open-source a set of SAE checkpoints, training frameworks, and analysis tools—Feel free to explore them on [Github](https://github.com/THU-KEG/OpenSAE), [Huggingface](https://huggingface.co/collections/THU-KEG/opensae-llama-31-8b-6795f320a08d7b966aae535c) and [ModelScope](https://www.modelscope.cn/collections/OpenSAE-LLaMA-31-8B-39ba7b3cceb342).
+* Jan 2025: Two of our abstracts have been accepted by ISMRM 2025, with one selected for an oral presentation. See you in Hawaii!
 * Dec 2024: I was selected for the Tsinghua University Disruptive Innovation Talent Program.
 * Oct 2024: I launched a curated repository of research papers on the mechanisms of large language models—[Explore the repository here](https://github.com/LeoJ-xy/Towards-LLM-Intelligence).
 * Oct 2024: I was awarded the Tsinghua University Technological Innovation Scholarship and Social Work Scholarship.
