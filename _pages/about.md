@@ -6,7 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a second-year undergraduate student in the Department of Computer Science at Tsinghua University, with a minor in Linguistics & Literature. My research interests include LLM mechanisms, neuroimaging, and brain-inspired AI.
+I am a second-year undergraduate student in the Department of Computer Science at Tsinghua University, with a minor in Linguistics & Literature. 
+
+My research interests include:
+
+1. **Mechanisms of large models** – investigating the mechanistic interpretability of large models by integrating interdisciplinary approaches from cognitive science, linguistics, philosophy, etc.
+2. **Mechanisms for large models** – designing better model architectures, application and interaction patterns based on research into the mechanisms of large models.
 
 I am currently interning at [THUKEG](https://keg.cs.tsinghua.edu.cn/) under the supervision of Prof. [Juanzi Li](https://keg.cs.tsinghua.edu.cn/persons/ljz/index.html). Previously, I interned at THBI and participated in a summer research at Oxford University’s FMRIB, supervised by Dr. Qiyuan Tian and Prof. Wenchuan Wu.
 
