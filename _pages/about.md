@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a second-year undergraduate student in the Department of Computer Science at Tsinghua University, with a minor in Linguistics & Literature. 
+I am a second-year undergraduate student in the Department of Computer Science at Tsinghua University, with a minor in Linguistics & Literature.
 
 My research interests include:
 
@@ -19,6 +19,7 @@ I look forward to internship and summer research opportunities in related fields
 
 ### News
 
+* Feb 2025: We have developed a linguistic mechanism research framework based on SAE and used this framework to discover a large number of linguistic features, available at https://arxiv.org/abs/2502.20344.
 * Jan 2025: We open-source a set of SAE checkpoints, training frameworks, and analysis tools—Feel free to explore them on [Github](https://github.com/THU-KEG/OpenSAE), [Huggingface](https://huggingface.co/collections/THU-KEG/opensae-llama-31-8b-6795f320a08d7b966aae535c) and [ModelScope](https://www.modelscope.cn/collections/OpenSAE-LLaMA-31-8B-39ba7b3cceb342).
 * Jan 2025: Two of our abstracts have been accepted by ISMRM 2025, with one selected for an oral presentation. See you in Hawaii!
 * Dec 2024: I was selected for the Tsinghua University Disruptive Innovation Talent Program.
