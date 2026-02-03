@@ -10,18 +10,13 @@ I am a third-year undergraduate student in Xinya College and the Department of C
 
 My research interests include:
 
-1. **Mechanisms of large models** – investigating the mechanistic interpretability of large models by integrating interdisciplinary approaches from cognitive science, linguistics, philosophy, etc.
-2. **Mechanisms for large models** – designing better model architectures, application and interaction patterns based on research into the mechanisms of large models.
-3. **Humanity Intelligence** – applying AI methods to advance research in the humanities, and exploring how to enhance large models’ higher-level humanistic capabilities.
+1. **Interpretability of large language models** – investigates the principles and mechanisms by which large models acquire advanced cognitive capabilities, and leverages these mechanistic insights to optimize model training and downstream applications.
+2. **Post-training** – studies how to enhance model performance on downstream tasks through methods such as reinforcement learning, with a particular focus on creative tasks.
+3. **AI for Humanity** – uses AI methods to support humanities research, and examines the limitations of large-model–generated content as well as the capability bottlenecks of large models in humanistic domains.
 
 I am currently interning at [THUKEG](https://keg.cs.tsinghua.edu.cn/) and [PKUICL](https://cs.pku.edu.cn/English/People/Faculty/By_Institute/Institute_of_Computational_Linguistics.htm) under the joint supervision of Prof. [Juanzi Li](https://keg.cs.tsinghua.edu.cn/persons/ljz/index.html) and Prof. [Zhifang Sui](https://scholar.google.com/citations?hl=zh-CN&user=y2EaftAAAAAJ&view_op=list_works). Previously, I conducted a summer research at the University of Maryland with Prof. Jordan Boyd-Graber, and also interned at THBI and participated in a summer research at Oxford University’s FMRIB, supervised by Prof. Qiyuan Tian and Prof. Wenchuan Wu.
 
 I look forward to internship and summer research opportunities in related fields.
-
-### News
-
-* Nov 2025: I will attend **EMNLP 2025** in Suzhou (Nov. 4–8, 2025) and present our work **LinguaLens**. See you in the beautiful city!
-* Nov 2025: I will attend the academic symposium *“Reconstructing Knowledge: New Paradigms of Digital Humanities and Modern Chinese History Research in the Age of AI”* in Beijing (Nov. 1–2, 2025), and present our recent work on **AI for Conceptual History**.
 
 ### Selected Works
 
