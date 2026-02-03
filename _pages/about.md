@@ -10,7 +10,7 @@ I am a third-year undergraduate student in Xinya College and the Department of C
 
 My research interests include:
 
-1. **Interpretability of large language models** – investigates the principles and mechanisms by which large models acquire advanced cognitive capabilities, and leverages these mechanistic insights to optimize model training and downstream applications.
+1. **Interpretability of large language models** – iinvestigates the principles and mechanisms underlying the advanced cognitive capabilities of large language models, and leverages insights into these mechanisms to optimize model training and downstream applications.
 2. **Post-training** – studies how to enhance model performance on downstream tasks through methods such as reinforcement learning, with a particular focus on creative tasks.
 3. **AI for Humanity** – uses AI methods to support humanities research, and examines the limitations of large-model–generated content as well as the capability bottlenecks of large models in humanistic domains.
 
