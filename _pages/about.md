@@ -10,11 +10,11 @@ I am a third-year undergraduate student in Xinya College and the Department of C
 
 My research interests include:
 
-1. **Interpretability of large language models** – iinvestigates the principles and mechanisms underlying the advanced cognitive capabilities of large language models, and leverages insights into these mechanisms to optimize model training and downstream applications.
+1. **Interpretability of large language models** – investigates the principles and mechanisms underlying the advanced cognitive capabilities of large language models, and leverages insights into these mechanisms to optimize model training and downstream applications.
 2. **Post-training** – studies how to enhance model performance on downstream tasks through methods such as reinforcement learning, with a particular focus on creative tasks.
 3. **AI for Humanity** – uses AI methods to support humanities research, and examines the limitations of large-model–generated content as well as the capability bottlenecks of large models in humanistic domains.
 
-I am currently interning at [THUKEG](https://keg.cs.tsinghua.edu.cn/) and [PKUICL](https://cs.pku.edu.cn/English/People/Faculty/By_Institute/Institute_of_Computational_Linguistics.htm) under the joint supervision of Prof. [Juanzi Li](https://keg.cs.tsinghua.edu.cn/persons/ljz/index.html) and Prof. [Zhifang Sui](https://scholar.google.com/citations?hl=zh-CN&user=y2EaftAAAAAJ&view_op=list_works). Previously, I conducted a summer research at the University of Maryland with Prof. Jordan Boyd-Graber, and also interned at THBI and participated in a summer research at Oxford University’s FMRIB, supervised by Prof. Qiyuan Tian and Prof. Wenchuan Wu.
+I am currently interning at [THUKEG](https://keg.cs.tsinghua.edu.cn/) and [PKUICL](https://cs.pku.edu.cn/info/1165/1843.htm) under the joint supervision of Prof. [Juanzi Li](https://keg.cs.tsinghua.edu.cn/persons/ljz/index.html) and Prof. [Zhifang Sui](https://scholar.google.com/citations?hl=zh-CN&user=y2EaftAAAAAJ&view_op=list_works). Previously, I conducted a summer research at the University of Maryland with Prof. Jordan Boyd-Graber, and also interned at THBI and participated in a summer research at Oxford University’s FMRIB, supervised by Prof. Qiyuan Tian and Prof. Wenchuan Wu.
 
 I look forward to internship and summer research opportunities in related fields.
 
