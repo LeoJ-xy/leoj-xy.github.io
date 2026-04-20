@@ -21,6 +21,7 @@ I look forward to internship and summer research opportunities in related fields
 ### Selected Works
 
 * **OpenSAE: Open Source Sparse Auto-Encoders and Toolkits** [[Github]](https://github.com/THU-KEG/OpenSAE) [[Huggingface]](https://huggingface.co/collections/THU-KEG/opensae-llama-31-8b-6795f320a08d7b966aae535c) [[ModelScope]](https://www.modelscope.cn/collections/OpenSAE-LLaMA-31-8B-39ba7b3cceb342)
+* [ACL 2026 Main] **HistLens: Mapping Idea Change across Concepts and Corpora** [[paper]](https://arxiv.org/abs/2604.11749) [[code]](https://github.com/LeoJ-xy/HistLens)
 * [EMNLP 2025 main] **LinguaLens: Linguistic Mechanism Analysis and Control Framework of LLMs** [[paper]](https://arxiv.org/pdf/2502.20344) [[code]](https://github.com/THU-KEG/LinguaLens) [[dataset]](https://huggingface.co/datasets/THU-KEG/LinguaLens-Data)
 * [ISMRM 2025 oral & poster] **DeepDTI & DeepEddy: Ultrafast Brain Imaging Data Acquisition and Analysis Solution** [[paper1]](https://www.semanticscholar.org/paper/DeepEddy%3A-high-quality-fast-eddy-current-and-bulk-Zhang-Lange/8b3438359f490e0d7d7ba5bbf90ea88db59d78c9?utm_source=direct_link) [[paper2]](https://www.semanticscholar.org/paper/High-fidelity-Ultra-fast-Diffusion-Tensor-Imaging-Jing-Li/301be4d273fc3f9ae4d2d217ee1feaee95ec6145?utm_source=direct_link)
 
