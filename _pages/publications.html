@@ -11,94 +11,63 @@ author_profile: true
   <section class="publication-directory__intro">
     <div>
       <p class="publication-directory__eyebrow">Research Archive</p>
-      <p class="publication-directory__lede">A concise index of papers, grouped by venue type and linked directly to the materials that matter.</p>
+      <p class="publication-directory__lede">A concise index of papers, grouped by year and linked directly to the materials that matter.</p>
     </div>
     {% if site.author.googlescholar %}
       <a class="publication-directory__scholar" href="{{ site.author.googlescholar }}">Google Scholar</a>
     {% endif %}
   </section>
 
-  {% if site.publication_category %}
-    {% for category in site.publication_category %}
-      {% assign posts = site.publications | where: "category", category[0] | sort: "date" | reverse %}
-      {% if posts.size > 0 %}
-        <section class="publication-section">
-          <div class="publication-section__header">
-            <h2 class="publication-section__title">{{ category[1].title }}</h2>
-            <span class="publication-section__count">{{ posts.size }}</span>
-          </div>
-
-          <div class="publication-stack">
-            {% for post in posts %}
-              <article class="publication-card" itemscope itemtype="http://schema.org/CreativeWork">
-                <div class="publication-card__meta">
-                  <span class="publication-card__venue">{{ post.venue }}</span>
-                  <time class="publication-card__year" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time>
-                </div>
-
-                <h3 class="publication-card__title" itemprop="headline">
-                  <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
-                </h3>
-
-                {% if post.excerpt %}
-                  <p class="publication-card__excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | strip }}</p>
-                {% endif %}
-
-                <div class="publication-card__actions">
-                  {% if post.paperurl %}
-                    <a class="publication-link" href="{{ post.paperurl }}">Paper</a>
-                  {% endif %}
-                  {% if post.codeurl %}
-                    <a class="publication-link" href="{{ post.codeurl }}">Code</a>
-                  {% endif %}
-                  {% if post.dataseturl %}
-                    <a class="publication-link" href="{{ post.dataseturl }}">Dataset</a>
-                  {% endif %}
-                  {% if post.slidesurl %}
-                    <a class="publication-link" href="{{ post.slidesurl }}">Slides</a>
-                  {% endif %}
-                  <a class="publication-link publication-link--secondary" href="{{ base_path }}{{ post.url }}" rel="permalink">Details</a>
-                </div>
-              </article>
-            {% endfor %}
+  {% assign posts = site.publications | sort: "date" | reverse %}
+  {% if posts.size > 0 %}
+    {% assign current_year = "" %}
+    {% for post in posts %}
+      {% assign post_year = post.date | date: "%Y" %}
+      {% if post_year != current_year %}
+        {% unless forloop.first %}
           </div>
         </section>
+        {% endunless %}
+        {% assign current_year = post_year %}
+        <section class="publication-section">
+          <div class="publication-section__header">
+            <h2 class="publication-section__title">{{ post_year }}</h2>
+          </div>
+          <div class="publication-stack">
       {% endif %}
-    {% endfor %}
-  {% else %}
-    <div class="publication-stack">
-      {% for post in site.publications | sort: "date" | reverse %}
-        <article class="publication-card" itemscope itemtype="http://schema.org/CreativeWork">
-          <div class="publication-card__meta">
-            <span class="publication-card__venue">{{ post.venue }}</span>
-            <time class="publication-card__year" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time>
-          </div>
 
-          <h3 class="publication-card__title" itemprop="headline">
-            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
-          </h3>
+      <article class="publication-card" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="publication-card__meta">
+          <span class="publication-card__venue">{{ post.venue }}</span>
+          <time class="publication-card__year" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" }}</time>
+        </div>
 
-          {% if post.excerpt %}
-            <p class="publication-card__excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | strip }}</p>
+        <h3 class="publication-card__title" itemprop="headline">
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+        </h3>
+
+        {% if post.excerpt %}
+          <p class="publication-card__excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | strip }}</p>
+        {% endif %}
+
+        <div class="publication-card__actions">
+          {% if post.paperurl %}
+            <a class="publication-link" href="{{ post.paperurl }}">Paper</a>
           {% endif %}
-
-          <div class="publication-card__actions">
-            {% if post.paperurl %}
-              <a class="publication-link" href="{{ post.paperurl }}">Paper</a>
-            {% endif %}
-            {% if post.codeurl %}
-              <a class="publication-link" href="{{ post.codeurl }}">Code</a>
-            {% endif %}
-            {% if post.dataseturl %}
-              <a class="publication-link" href="{{ post.dataseturl }}">Dataset</a>
-            {% endif %}
-            {% if post.slidesurl %}
-              <a class="publication-link" href="{{ post.slidesurl }}">Slides</a>
-            {% endif %}
-            <a class="publication-link publication-link--secondary" href="{{ base_path }}{{ post.url }}" rel="permalink">Details</a>
-          </div>
-        </article>
-      {% endfor %}
-    </div>
+          {% if post.codeurl %}
+            <a class="publication-link" href="{{ post.codeurl }}">Code</a>
+          {% endif %}
+          {% if post.dataseturl %}
+            <a class="publication-link" href="{{ post.dataseturl }}">Dataset</a>
+          {% endif %}
+          {% if post.slidesurl %}
+            <a class="publication-link" href="{{ post.slidesurl }}">Slides</a>
+          {% endif %}
+          <a class="publication-link publication-link--secondary" href="{{ base_path }}{{ post.url }}" rel="permalink">Details</a>
+        </div>
+      </article>
+    {% endfor %}
+        </div>
+      </section>
   {% endif %}
 </div>
