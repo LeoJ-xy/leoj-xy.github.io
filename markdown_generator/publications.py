@@ -102,6 +102,12 @@ for row, item in publications.iterrows():
     
     if len(paper_url) > 5:
         md += "\npaperurl: '" + paper_url + "'"
+
+    if len(code_url) > 5:
+        md += "\ncodeurl: '" + code_url + "'"
+
+    if len(dataset_url) > 5:
+        md += "\ndataseturl: '" + dataset_url + "'"
     
     if len(slides_url) > 5:
         md += "\nslidesurl: '" + slides_url + "'"
@@ -137,4 +143,3 @@ for row, item in publications.iterrows():
        
     with open("../_publications/" + md_filename, 'w') as f:
         f.write(md)
-

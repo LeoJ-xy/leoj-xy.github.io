@@ -7,6 +7,7 @@ excerpt: 'Accepted at ACL 2026 Main Conference. Code available on GitHub.'
 date: 2026-04-13
 venue: 'ACL 2026 Main Conference'
 paperurl: 'https://arxiv.org/abs/2604.11749'
+codeurl: 'https://github.com/LeoJ-xy/HistLens'
 ---
 
 Accepted at ACL 2026 Main Conference.
