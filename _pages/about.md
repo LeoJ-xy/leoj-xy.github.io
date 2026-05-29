@@ -10,23 +10,21 @@ redirect_from:
 
 <section class="research-hero">
   <div>
-    <p class="research-eyebrow">AI researcher &middot; Tsinghua University</p>
     <h1>Yi Jing</h1>
     <p class="research-lead">
-      I study mechanistic interpretability, post-training, and AI systems for research, with a focus on making large language models more understandable and useful.
+      I'm a third-year undergraduate student at Tsinghua University working on mechanistic interpretability, post-training, and AI systems for research.
     </p>
-  </div>
-  <aside class="research-profile" aria-label="Profile">
-    <strong>Leo Jing</strong><br>
-    Beijing, China<br>
-    Xinya College &amp; Computer Science<br>
-    Minor in Linguistics &amp; Literature
+    <p class="research-hero__meta">
+      Xinya College &amp; Computer Science, Tsinghua University. Minor in Linguistics &amp; Literature. Based in Beijing, China.
+    </p>
     <div class="research-inline-links">
       <a href="mailto:jingy22@mails.tsinghua.edu.cn">Email</a>
       <a href="https://github.com/LeoJ-xy">GitHub</a>
+      <a href="/blogs/">Blogs</a>
       <a href="/publications/">Publications</a>
     </div>
-  </aside>
+  </div>
+  <img class="research-portrait" src="/images/jingyi.png" alt="Yi Jing">
 </section>
 
 <section class="research-section">
