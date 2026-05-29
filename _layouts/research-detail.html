@@ -24,10 +24,37 @@ layout: default
         {% endif %}
         {% if page.collection != 'publications' and page.tags and page.tags.size > 0 %}
           {% for tag in page.tags %}
-            <span class="research-detail__meta-item">{{ tag }}</span>
+            {% unless tag == "Chinese" or tag == "English" %}
+              <span class="research-detail__meta-item">{{ tag }}</span>
+            {% endunless %}
           {% endfor %}
         {% endif %}
       </div>
+
+      {% if page.collection != 'publications' and page.translation_key %}
+        {% assign zh_post = false %}
+        {% assign en_post = false %}
+        {% for candidate in site.posts %}
+          {% if candidate.translation_key == page.translation_key %}
+            {% if candidate.lang == "en" %}
+              {% assign en_post = candidate %}
+            {% else %}
+              {% assign zh_post = candidate %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% if zh_post and en_post %}
+          <nav class="research-language-switch research-language-switch--detail" aria-label="Language versions">
+            <span class="research-language-switch__icon" aria-hidden="true">文</span>
+            {% if zh_post %}
+              <a href="{{ zh_post.url | relative_url }}" {% if page.url == zh_post.url %}aria-current="page"{% endif %}>中</a>
+            {% endif %}
+            {% if en_post %}
+              <a href="{{ en_post.url | relative_url }}" {% if page.url == en_post.url %}aria-current="page"{% endif %}>EN</a>
+            {% endif %}
+          </nav>
+        {% endif %}
+      {% endif %}
 
       {% if page.collection == 'publications' and page.authors %}
         <p class="research-detail__authors">{{ page.authors }}</p>
