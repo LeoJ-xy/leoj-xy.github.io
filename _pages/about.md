@@ -158,20 +158,20 @@ redirect_from:
     <article class="research-item">
       <h3>Scholarships</h3>
       <ul class="research-clean-list">
-        <li>National Scholarship of China, RMB 8,000, 2023</li>
-        <li>Zheng Geru Scholarship, RMB 10,000, 2025</li>
-        <li>Technological Innovation Excellence Scholarship, RMB 3,000, 2024</li>
-        <li>Social Work Excellence Scholarship, RMB 2,000, 2024</li>
-        <li>Literary and Arts Excellence Scholarship, RMB 2,000, 2023</li>
+        <li>National Scholarship of China, 2023</li>
+        <li>Zheng Geru Scholarship, 2025</li>
+        <li>Technological Innovation Excellence Scholarship, 2024</li>
+        <li>Social Work Excellence Scholarship, 2024</li>
+        <li>Literary and Arts Excellence Scholarship, 2023</li>
       </ul>
     </article>
     <article class="research-item">
       <h3>Fellowships and grants</h3>
       <ul class="research-clean-list">
         <li>Member of the Tsinghua University Spark Scientific and Technological Innovation Fellowship, top 40 in 3000</li>
-        <li>Member of the Tsinghua University Disruptive Innovation Talent Program, funding up to RMB 200,000</li>
-        <li>Led two projects under the Tsinghua University Academic Advancement Program, total funding RMB 70,000</li>
-        <li>Led a project under the Beijing Natural Science Foundation Qi Yan Program, funding RMB 80,000</li>
+        <li>Member of the Tsinghua University Disruptive Innovation Talent Program</li>
+        <li>Led two projects under the Tsinghua University Academic Advancement Program</li>
+        <li>Led a project under the Beijing Natural Science Foundation Qi Yan Program</li>
       </ul>
     </article>
   </div>
