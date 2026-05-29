@@ -1,0 +1,63 @@
+---
+layout: research
+title: "Blogs"
+permalink: /blogs/
+author_profile: false
+---
+
+<section class="research-page-heading">
+  <p class="research-eyebrow">Writing</p>
+  <h1>Blogs</h1>
+  <p>
+    Notes, essays, and research-adjacent writing. Longer technical posts can live here beside more reflective pieces.
+  </p>
+</section>
+
+{% assign posts = site.posts | sort: "date" | reverse %}
+{% if posts.size > 0 %}
+  <section class="research-section research-section--first">
+    <div class="research-list research-list--flush">
+      {% for post in posts %}
+        <article class="research-item research-post">
+          <p class="research-item__meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+          </p>
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          {% if post.excerpt %}
+            <p>{{ post.excerpt | markdownify | strip_html | strip | truncate: 220 }}</p>
+          {% endif %}
+          {% if post.tags and post.tags.size > 0 %}
+            <div class="research-tags" aria-label="Tags">
+              {% for tag in post.tags %}
+                <span>{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% else %}
+  <section class="research-section research-section--first">
+    <div class="research-list research-list--flush">
+      <article class="research-item research-post">
+        <p class="research-item__meta">Draft placeholder</p>
+        <h2>Mechanistic interpretability notes</h2>
+        <p>Replace this placeholder with a short note on sparse representations, circuits, or model behavior.</p>
+        <div class="research-tags"><span>Interpretability</span><span>Draft</span></div>
+      </article>
+      <article class="research-item research-post">
+        <p class="research-item__meta">Draft placeholder</p>
+        <h2>Post-training reading log</h2>
+        <p>Replace this placeholder with a reading log or experiment report on RL, preference optimization, or data quality.</p>
+        <div class="research-tags"><span>Post-training</span><span>Draft</span></div>
+      </article>
+      <article class="research-item research-post">
+        <p class="research-item__meta">Draft placeholder</p>
+        <h2>AI for research systems</h2>
+        <p>Replace this placeholder with a systems note on research agents, literature workflows, or tool-building.</p>
+        <div class="research-tags"><span>AI for Research</span><span>Draft</span></div>
+      </article>
+    </div>
+  </section>
+{% endif %}

@@ -6,6 +6,12 @@
 
 main:
 #################################
+  - title: "About Me"
+    url: /
+
+  - title: "Blogs"
+    url: /blogs/
+
   - title: "Publications"
     url: /publications/
 
