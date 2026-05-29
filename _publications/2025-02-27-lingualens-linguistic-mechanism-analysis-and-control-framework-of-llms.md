@@ -20,7 +20,3 @@ links:
 ---
 
 Accepted at EMNLP 2025 Main Conference.
-
-- [Paper](https://arxiv.org/pdf/2502.20344)
-- [Code](https://github.com/THU-KEG/LinguaLens)
-- [Dataset](https://huggingface.co/datasets/THU-KEG/LinguaLens-Data)

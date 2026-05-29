@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<main class="research-site research-detail" role="main">
+  <article class="research-detail__article" itemscope itemtype="http://schema.org/CreativeWork">
+    <header class="research-detail__header">
+      {% if page.collection == 'publications' %}
+        <p class="research-eyebrow">Publication</p>
+      {% else %}
+        <p class="research-eyebrow">Writing</p>
+      {% endif %}
+
+      <h1 itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+
+      <div class="research-detail__meta">
+        {% if page.collection == 'publications' and page.venue %}
+          <span class="research-detail__meta-item">{{ page.venue }}</span>
+        {% endif %}
+        {% if page.date %}
+          <time class="research-detail__meta-item" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+        {% endif %}
+        {% if page.collection != 'publications' and page.tags and page.tags.size > 0 %}
+          {% for tag in page.tags %}
+            <span class="research-detail__meta-item">{{ tag }}</span>
+          {% endfor %}
+        {% endif %}
+      </div>
+
+      {% if page.collection == 'publications' and page.authors %}
+        <p class="research-detail__authors">{{ page.authors }}</p>
+      {% endif %}
+
+      {% if page.collection == 'publications' %}
+        <div class="research-link-group research-detail__actions">
+          {% if page.links %}
+            {% for link in page.links %}
+              <a href="{{ link.url }}">{{ link.label }}</a>
+            {% endfor %}
+          {% else %}
+            {% if page.paperurl %}<a href="{{ page.paperurl }}">Paper</a>{% endif %}
+            {% if page.codeurl %}<a href="{{ page.codeurl }}">Code</a>{% endif %}
+            {% if page.dataseturl %}<a href="{{ page.dataseturl }}">Dataset</a>{% endif %}
+            {% if page.slidesurl %}<a href="{{ page.slidesurl }}">Slides</a>{% endif %}
+          {% endif %}
+        </div>
+      {% endif %}
+    </header>
+
+    <section class="research-detail__content" itemprop="text">
+      {{ content }}
+    </section>
+
+    <footer class="research-detail__footer">
+      {% if page.collection == 'publications' %}
+        <a class="research-detail__back" href="{{ '/publications/' | relative_url }}">Back to Publications</a>
+      {% else %}
+        <a class="research-detail__back" href="{{ '/blogs/' | relative_url }}">Back to Blogs</a>
+      {% endif %}
+    </footer>
+  </article>
+</main>

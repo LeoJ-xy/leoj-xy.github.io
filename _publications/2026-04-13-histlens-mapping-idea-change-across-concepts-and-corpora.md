@@ -17,6 +17,3 @@ links:
 ---
 
 Accepted at ACL 2026 Main Conference.
-
-- [Paper](https://arxiv.org/abs/2604.11749)
-- [Code](https://github.com/LeoJ-xy/HistLens)

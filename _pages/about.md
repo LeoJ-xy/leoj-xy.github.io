@@ -24,7 +24,9 @@ redirect_from:
       <a href="/publications/">Publications</a>
     </div>
   </div>
-  <img class="research-portrait" src="/images/jingyi.png" alt="Yi Jing">
+  <figure class="research-hero__photo">
+    <img class="research-portrait" src="/images/jingyi.png" alt="Yi Jing">
+  </figure>
 </section>
 
 <section class="research-section">
@@ -89,7 +91,7 @@ redirect_from:
   <div class="research-section__head">
     <h2>Selected Works</h2>
     <p>
-      Recent projects and papers across sparse autoencoders, linguistic mechanisms, concept change, and scientific imaging.
+      Recent projects and papers across sparse autoencoders, linguistic mechanisms, concept change, and post-training data engineering.
     </p>
   </div>
   <div class="research-list">
@@ -101,6 +103,14 @@ redirect_from:
         <a href="https://github.com/THU-KEG/OpenSAE">GitHub</a>
         <a href="https://huggingface.co/collections/THU-KEG/opensae-llama-31-8b-6795f320a08d7b966aae535c">Hugging Face</a>
         <a href="https://www.modelscope.cn/collections/OpenSAE-LLaMA-31-8B-39ba7b3cceb342">ModelScope</a>
+      </div>
+    </article>
+    <article class="research-item">
+      <p class="research-item__meta">Preprint</p>
+      <h3>Guiding LLM Post-training Data Engineering with Model Internals from Sparse Autoencoders</h3>
+      <p>A sparse autoencoder-guided framework for using model internals to engineer post-training data for LLM reinforcement learning.</p>
+      <div class="research-link-group">
+        <a href="https://arxiv.org/html/2605.27354v1">Paper</a>
       </div>
     </article>
     <article class="research-item">
@@ -120,15 +130,6 @@ redirect_from:
         <a href="https://arxiv.org/pdf/2502.20344">Paper</a>
         <a href="https://github.com/THU-KEG/LinguaLens">Code</a>
         <a href="https://huggingface.co/datasets/THU-KEG/LinguaLens-Data">Dataset</a>
-      </div>
-    </article>
-    <article class="research-item">
-      <p class="research-item__meta">ISMRM 2025 oral &amp; poster</p>
-      <h3>DeepDTI &amp; DeepEddy: Ultrafast Brain Imaging Data Acquisition and Analysis Solution</h3>
-      <p>High-fidelity, ultrafast brain imaging data acquisition and analysis work presented at ISMRM 2025.</p>
-      <div class="research-link-group">
-        <a href="https://www.semanticscholar.org/paper/DeepEddy%3A-high-quality-fast-eddy-current-and-bulk-Zhang-Lange/8b3438359f490e0d7d7ba5bbf90ea88db59d78c9?utm_source=direct_link">DeepEddy</a>
-        <a href="https://www.semanticscholar.org/paper/High-fidelity-Ultra-fast-Diffusion-Tensor-Imaging-Jing-Li/301be4d273fc3f9ae4d2d217ee1feaee95ec6145?utm_source=direct_link">DeepDTI</a>
       </div>
     </article>
   </div>
