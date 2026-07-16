@@ -206,8 +206,13 @@ body {
   max-width: 34rem;
   margin: 0;
   color: var(--research-text);
-  font-size: clamp(1.05rem, 2.2vw, 1.2rem);
-  line-height: 1.65;
+  font-size: clamp(0.98rem, 1.8vw, 1.08rem);
+  line-height: 1.7;
+}
+
+.research-lead strong {
+  font-weight: 720;
+  color: var(--research-text);
 }
 
 .research-hero__meta {
@@ -831,7 +836,7 @@ body {
   }
 
   .research-lead {
-    font-size: 1.05rem;
+    font-size: 0.98rem;
   }
 
   .research-section,
