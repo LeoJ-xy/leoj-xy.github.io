@@ -13,7 +13,7 @@ redirect_from:
     <p class="research-eyebrow">AI Researcher · Tsinghua University</p>
     <h1>Yi Jing</h1>
     <p class="research-lead">
-      I'm a third-year undergraduate student at Tsinghua University working on mechanistic interpretability, post-training, and AI systems for research.
+      I'm a fourth-year undergraduate student at Tsinghua University and an incoming PhD student at the Institute of Computational Linguistics, Peking University, working on post-training and LLM agents.
     </p>
     <p class="research-hero__meta">
       Xinya College &amp; Computer Science, Tsinghua University. Minor in Linguistics &amp; Literature. Based in Beijing, China.
@@ -34,26 +34,26 @@ redirect_from:
   <div class="research-section__head">
     <h2><span class="research-section__index">01</span>About</h2>
     <p>
-      A third-year undergraduate in Xinya College and the Department of Computer Science at Tsinghua University, with a minor in Linguistics &amp; Literature.
+      A fourth-year undergraduate in Xinya College and the Department of Computer Science at Tsinghua University, with a minor in Linguistics &amp; Literature.
     </p>
   </div>
   <div class="research-list">
     <article class="research-item research-item--stack">
       <h3>Current internships</h3>
       <p>
-        I am currently interning at <a href="https://keg.cs.tsinghua.edu.cn/">THUKEG</a> and <a href="https://cs.pku.edu.cn/info/1165/1843.htm">PKUICL</a> under the joint supervision of Prof. <a href="https://keg.cs.tsinghua.edu.cn/persons/ljz/index.html">Juanzi Li</a> and Prof. <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=y2EaftAAAAAJ&amp;view_op=list_works">Zhifang Sui</a>.
+        I am a research intern in Tencent Hunyuan's Qingyun Program, and I intern at <a href="https://cs.pku.edu.cn/info/1165/1843.htm">PKUICL</a> under the supervision of Prof. <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=y2EaftAAAAAJ&amp;view_op=list_works">Zhifang Sui</a>.
       </p>
     </article>
     <article class="research-item research-item--stack">
       <h3>Previous research</h3>
       <p>
-        Previously, I conducted summer research at the University of Maryland with Prof. Jordan Boyd-Graber, interned at THBI, and participated in summer research at Oxford University's FMRIB, supervised by Prof. Qiyuan Tian and Prof. Wenchuan Wu.
+        Previously, I worked at <a href="https://keg.cs.tsinghua.edu.cn/">THUKEG</a> with Prof. <a href="https://keg.cs.tsinghua.edu.cn/persons/ljz/index.html">Juanzi Li</a>, conducted summer research at the University of Maryland with Prof. Jordan Boyd-Graber, interned at THBI, and participated in summer research at Oxford University's FMRIB, supervised by Prof. Qiyuan Tian and Prof. Wenchuan Wu.
       </p>
     </article>
     <article class="research-item research-item--stack">
       <h3>Opportunities</h3>
       <p>
-        I look forward to internship and summer research opportunities in interpretability, post-training, and AI for research.
+        I look forward to internship and research opportunities in post-training and LLM agents.
       </p>
     </article>
   </div>
@@ -63,21 +63,17 @@ redirect_from:
   <div class="research-section__head">
     <h2><span class="research-section__index">02</span>Research</h2>
     <p>
-      Motivated by a practical question: how can we understand model internals well enough to improve training, evaluation, and downstream use?
+      Motivated by a practical question: how can we train and orchestrate models to act reliably on real, downstream tasks?
     </p>
   </div>
   <div class="research-list">
-    <article class="research-item research-item--stack research-item--compact">
-      <h3>Interpretability of large language models</h3>
-      <p>Uncovering the mechanisms behind advanced cognitive capabilities, and using those insights to optimize training and downstream applications.</p>
-    </article>
     <article class="research-item research-item--stack research-item--compact">
       <h3>Post-training</h3>
       <p>Enhancing downstream performance through methods such as reinforcement learning, with a particular focus on creative tasks.</p>
     </article>
     <article class="research-item research-item--stack research-item--compact">
-      <h3>AI for research</h3>
-      <p>Building AI systems for research, with the long-term goal of enabling AI self-evolution.</p>
+      <h3>LLM agents</h3>
+      <p>Building and improving LLM-based agents — how they plan, use tools, and act reliably on complex, long-horizon tasks.</p>
     </article>
   </div>
 </section>
