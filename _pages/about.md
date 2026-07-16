@@ -33,19 +33,21 @@ redirect_from:
 <section class="research-section research-reveal">
   <div class="research-section__head">
     <h2><span class="research-section__index">01</span>About</h2>
-    <p>
-      A fourth-year undergraduate in Xinya College and the Department of Computer Science at Tsinghua University.
-    </p>
+    <p>Education and research experience.</p>
   </div>
   <div class="research-list">
-    <article class="research-item research-item--stack">
-      <h3>Current internship</h3>
-      <p>
-        I am a research intern in the Qingyun Program at Tencent Hunyuan's Large Language Model Department.
-      </p>
+    <article class="research-item">
+      <p class="research-item__meta">Education</p>
+      <h3>Tsinghua University</h3>
+      <p>Fourth-year undergraduate in Xinya College and the Department of Computer Science. Incoming PhD at the Institute of Computational Linguistics, Peking University, advised by Prof. <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=y2EaftAAAAAJ&amp;view_op=list_works">Zhifang Sui</a>.</p>
     </article>
-    <article class="research-item research-item--stack">
-      <h3>Previous research</h3>
+    <article class="research-item">
+      <p class="research-item__meta">Now</p>
+      <h3>Tencent Hunyuan</h3>
+      <p>Research intern in the Qingyun Program at the Large Language Model Department.</p>
+    </article>
+    <article class="research-item">
+      <p class="research-item__meta">Previously</p>
       <ul class="research-clean-list">
         <li><strong><a href="https://keg.cs.tsinghua.edu.cn/">THUKEG</a></strong> — with Prof. <a href="https://keg.cs.tsinghua.edu.cn/persons/ljz/index.html">Juanzi Li</a>.</li>
         <li><strong>University of Maryland</strong> — summer research with Prof. Jordan Boyd-Graber.</li>
