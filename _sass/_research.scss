@@ -344,14 +344,11 @@ body {
   line-height: 1.62;
 }
 
-/* optional index number above a section title */
+/* optional index number before a section title */
 .research-section__index {
-  display: block;
-  margin-bottom: 0.35rem;
+  margin-right: 0.6rem;
   color: var(--research-soft);
-  font-size: 0.78rem;
   font-weight: 600;
-  letter-spacing: 0.12em;
   font-variant-numeric: tabular-nums;
 }
 
