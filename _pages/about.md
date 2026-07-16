@@ -63,7 +63,7 @@ redirect_from:
   <div class="research-list">
     <article class="research-item research-item--stack research-item--compact">
       <h3>Post-training</h3>
-      <p>Enhancing downstream performance through methods such as reinforcement learning, with a particular focus on creative tasks.</p>
+      <p>Enhancing downstream performance through methods such as reinforcement learning, with a particular focus on improving model productivity on complex tasks.</p>
     </article>
     <article class="research-item research-item--stack research-item--compact">
       <h3>LLM agents</h3>
