@@ -84,9 +84,9 @@ redirect_from:
   </div>
   <div class="research-list">
     <article class="research-item research-item--compact">
-      <p class="research-item__meta">July 1–8, 2026</p>
-      <h3>ACL 2026</h3>
-      <p>I will attend ACL 2026 in San Diego.</p>
+      <p class="research-item__meta">August 28–30, 2026</p>
+      <h3>AI4Humanities 2026</h3>
+      <p>I will attend AI4Humanities 2026 in Shanghai.</p>
     </article>
   </div>
 </section>
