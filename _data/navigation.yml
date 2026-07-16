@@ -9,11 +9,14 @@ main:
   - title: "About Me"
     url: /
 
+  - title: "Publications"
+    url: /publications/
+
   - title: "Blogs"
     url: /blogs/
 
-  - title: "Publications"
-    url: /publications/
+  - title: "Honors"
+    url: /honors/
 
 #  - title: "Talks"
 #    url: /talks/    

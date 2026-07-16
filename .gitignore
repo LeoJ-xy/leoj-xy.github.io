@@ -5,6 +5,9 @@ _site/
 # Ignore the directory for local files during development
 local/
 
+# Throwaway HTML mockups from the html-mockup skill (previews, not the live site)
+mockups/
+
 # Ignore the Gemfile that is generated
 Gemfile.lock
 

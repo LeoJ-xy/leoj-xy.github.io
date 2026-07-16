@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Homepage mockup</title>
+<style>
+  /* ---- Design tokens (mirror of _sass/_research.scss :root) ---- */
+  :root {
+    --research-bg: #fffdf8;
+    --research-text: #24292f;
+    --research-muted: #667085;
+    --research-soft: #8b8175;
+    --research-line: #e7dfd3;
+    --research-accent: #286f6c;
+    --research-accent-soft: #eef6f4;
+    --research-max: 880px;
+    --sans: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+            "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--research-bg);
+    color: var(--research-text);
+    font-family: var(--sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---- Base research-site styles (trimmed from _research.scss) ---- */
+  .research-site {
+    max-width: var(--research-max);
+    margin: 0 auto;
+    padding: 2.25rem 1.4rem 4.5rem;
+  }
+  .research-site a { color: var(--research-accent); text-decoration: none; }
+  .research-site a:hover {
+    color: #174f4c; text-decoration: underline; text-underline-offset: 0.18em;
+  }
+
+  .research-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 220px;
+    gap: 2.5rem; align-items: center;
+    padding: 2.2rem 0 2.75rem;
+    border-bottom: 1px solid var(--research-line);
+  }
+  .research-hero__photo { width: 100%; margin: 0; justify-self: end; }
+  .research-portrait {
+    display: block; width: 100%; aspect-ratio: 1;
+    border: 1px solid var(--research-line); border-radius: 8px;
+    object-fit: cover; background: #fff;
+    box-shadow: 0 18px 42px rgba(36, 41, 47, 0.12);
+  }
+  .research-hero h1 {
+    margin: 0 0 0.85rem; font-size: 2.15rem; font-weight: 760; line-height: 1.15;
+  }
+  .research-lead {
+    max-width: 39rem; margin: 0; font-size: 1.08rem; line-height: 1.68;
+  }
+  .research-hero__meta {
+    max-width: 39rem; margin: 0.75rem 0 0;
+    color: var(--research-muted); font-size: 0.96rem; line-height: 1.62;
+  }
+  .research-inline-links {
+    display: flex; flex-wrap: wrap; gap: 0.35rem 0.7rem; margin-top: 1.05rem;
+  }
+  .research-inline-links a {
+    color: var(--research-accent); font-size: 0.92rem; font-weight: 600;
+  }
+  .research-inline-links a:not(:last-child)::after {
+    content: "/"; margin-left: 0.7rem; color: #b8aea0; font-weight: 400;
+  }
+
+  .research-section {
+    padding: 2.15rem 0; border-bottom: 1px solid var(--research-line);
+  }
+  .research-section__head {
+    display: grid; grid-template-columns: 9.5rem minmax(0, 1fr);
+    gap: 2rem; margin-bottom: 0.65rem;
+  }
+  .research-section__head h2 {
+    margin: 0; font-size: 1rem; font-weight: 760; line-height: 1.35;
+  }
+  .research-section__head p {
+    max-width: 39rem; margin: 0;
+    color: var(--research-muted); font-size: 0.98rem; line-height: 1.65;
+  }
+  .research-list { margin-left: 11.5rem; }
+
+  .research-item {
+    display: grid; grid-template-columns: 8.5rem minmax(0, 1fr);
+    gap: 1.25rem; padding: 1rem 0;
+    border-top: 1px solid rgba(36, 41, 47, 0.08);
+  }
+  .research-item:first-child { border-top: 0; }
+  .research-item__meta {
+    grid-column: 1; margin: 0;
+    color: var(--research-soft); font-size: 0.84rem; line-height: 1.45;
+  }
+  .research-item h3 {
+    grid-column: 2; margin: 0 0 0.25rem;
+    font-size: 1.04rem; font-weight: 720; line-height: 1.38;
+  }
+  .research-item p {
+    grid-column: 2; margin: 0;
+    color: var(--research-muted); font-size: 0.96rem; line-height: 1.62;
+  }
+
+  /* ---- Mobile fallback (mirror of the 760px query) ---- */
+  @media (max-width: 760px) {
+    .research-hero { grid-template-columns: 1fr; gap: 1.35rem; }
+    .research-hero__photo { order: -1; width: 128px; justify-self: start; }
+    .research-hero h1 { font-size: 1.72rem; }
+    .research-lead { font-size: 1rem; }
+    .research-section__head, .research-item { grid-template-columns: 1fr; gap: 0.35rem; }
+    .research-list { margin-left: 0; }
+    .research-item__meta, .research-item h3, .research-item p { grid-column: 1; }
+  }
+</style>
+</head>
+<body>
+<main class="research-site">
+
+  <!-- Replace everything below with the mockup content. -->
+  <section class="research-hero">
+    <div>
+      <h1>Your Name</h1>
+      <p class="research-lead">One-sentence lead describing what you work on.</p>
+      <p class="research-hero__meta">Affiliation · location · a second detail line.</p>
+      <div class="research-inline-links">
+        <a href="#">Email</a>
+        <a href="#">GitHub</a>
+        <a href="#">Publications</a>
+      </div>
+    </div>
+    <figure class="research-hero__photo">
+      <img class="research-portrait" alt="portrait"
+           src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='1'%3E%3Crect width='1' height='1' fill='%23e7dfd3'/%3E%3C/svg%3E">
+    </figure>
+  </section>
+
+  <section class="research-section">
+    <div class="research-section__head">
+      <h2>Section</h2>
+      <p>Optional description of what this block holds.</p>
+    </div>
+    <div class="research-list">
+      <article class="research-item">
+        <p class="research-item__meta">2026</p>
+        <h3>Item title</h3>
+        <p>Supporting line of copy for this entry.</p>
+      </article>
+      <article class="research-item">
+        <p class="research-item__meta">2025</p>
+        <h3>Another item</h3>
+        <p>Supporting line of copy for this entry.</p>
+      </article>
+    </div>
+  </section>
+
+</main>
+</body>
+</html>
