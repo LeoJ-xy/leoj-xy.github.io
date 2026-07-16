@@ -16,7 +16,7 @@ redirect_from:
       I'm a fourth-year undergraduate student at Tsinghua University and an incoming PhD student at the Institute of Computational Linguistics, Peking University, advised by Prof. <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=y2EaftAAAAAJ&amp;view_op=list_works">Zhifang Sui</a>, working on post-training and LLM agents.
     </p>
     <p class="research-hero__meta">
-      Xinya College &amp; Computer Science, Tsinghua University. Minor in Linguistics &amp; Literature. Based in Beijing, China.
+      Xinya College &amp; Computer Science, Tsinghua University. Based in Beijing, China.
     </p>
     <div class="research-pills">
       <a href="mailto:jingy22@mails.tsinghua.edu.cn">Email</a>
@@ -34,7 +34,7 @@ redirect_from:
   <div class="research-section__head">
     <h2><span class="research-section__index">01</span>About</h2>
     <p>
-      A fourth-year undergraduate in Xinya College and the Department of Computer Science at Tsinghua University, with a minor in Linguistics &amp; Literature.
+      A fourth-year undergraduate in Xinya College and the Department of Computer Science at Tsinghua University.
     </p>
   </div>
   <div class="research-list">
