@@ -33,7 +33,6 @@ redirect_from:
 <section class="research-section research-reveal">
   <div class="research-section__head">
     <h2><span class="research-section__index">01</span>About</h2>
-    <p>Education and research experience.</p>
   </div>
   <div class="research-list">
     <article class="research-item">
@@ -61,9 +60,6 @@ redirect_from:
 <section class="research-section research-reveal">
   <div class="research-section__head">
     <h2><span class="research-section__index">02</span>Research</h2>
-    <p>
-      Motivated by a practical question: how can we train and orchestrate models to act reliably on real, downstream tasks?
-    </p>
   </div>
   <div class="research-list">
     <article class="research-item research-item--stack research-item--compact">
@@ -80,7 +76,6 @@ redirect_from:
 <section class="research-section research-reveal">
   <div class="research-section__head">
     <h2><span class="research-section__index">03</span>News</h2>
-    <p>Short updates on papers, travel, and research activity.</p>
   </div>
   <div class="research-list">
     <article class="research-item research-item--compact">
@@ -94,7 +89,6 @@ redirect_from:
 <section class="research-section research-reveal">
   <div class="research-section__head">
     <h2><span class="research-section__index">04</span>Explore</h2>
-    <p>Full publication list, writing, and honors each live on their own page.</p>
   </div>
   <div class="research-cards">
     <a class="research-card" href="/publications/">
