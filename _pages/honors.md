@@ -27,7 +27,7 @@ author_profile: false
     <article class="research-item research-item--stack">
       <h3>Fellowships and grants</h3>
       <ul class="research-clean-list">
-        <li>Member of the Tsinghua University Spark Scientific and Technological Innovation Fellowship, top 40 in 3000</li>
+        <li>Member of the Tsinghua University Spark Scientific and Technological Innovation Fellowship</li>
         <li>Member of the Tsinghua University Disruptive Innovation Talent Program</li>
         <li>Led two projects under the Tsinghua University Academic Advancement Program</li>
         <li>Led a project under the Beijing Natural Science Foundation Qi Yan Program</li>
