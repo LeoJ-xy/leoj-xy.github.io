@@ -16,6 +16,7 @@ author_profile: false
     <article class="research-item research-item--stack">
       <h3>Scholarships</h3>
       <ul class="research-clean-list">
+        <li>SenseTime Scholarship Nomination Award, 2026</li>
         <li>National Scholarship of China, 2023</li>
         <li>Zheng Geru Scholarship, 2025</li>
         <li>Technological Innovation Excellence Scholarship, 2024</li>
