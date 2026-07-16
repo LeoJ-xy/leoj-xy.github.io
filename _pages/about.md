@@ -39,21 +39,15 @@ redirect_from:
   </div>
   <div class="research-list">
     <article class="research-item research-item--stack">
-      <h3>Current internships</h3>
+      <h3>Current internship</h3>
       <p>
-        I am a research intern in Tencent Hunyuan's Qingyun Program, and I intern at <a href="https://cs.pku.edu.cn/info/1165/1843.htm">PKUICL</a> under the supervision of Prof. <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=y2EaftAAAAAJ&amp;view_op=list_works">Zhifang Sui</a>.
+        I am a research intern in the Qingyun Program at Tencent Hunyuan's Large Language Model Department.
       </p>
     </article>
     <article class="research-item research-item--stack">
       <h3>Previous research</h3>
       <p>
         Previously, I worked at <a href="https://keg.cs.tsinghua.edu.cn/">THUKEG</a> with Prof. <a href="https://keg.cs.tsinghua.edu.cn/persons/ljz/index.html">Juanzi Li</a>, conducted summer research at the University of Maryland with Prof. Jordan Boyd-Graber, interned at THBI, and participated in summer research at Oxford University's FMRIB, supervised by Prof. Qiyuan Tian and Prof. Wenchuan Wu.
-      </p>
-    </article>
-    <article class="research-item research-item--stack">
-      <h3>Opportunities</h3>
-      <p>
-        I look forward to internship and research opportunities in post-training and LLM agents.
       </p>
     </article>
   </div>
