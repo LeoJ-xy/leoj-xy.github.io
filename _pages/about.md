@@ -26,7 +26,7 @@ redirect_from:
     </div>
   </div>
   <figure class="research-hero__photo">
-    <img class="research-portrait" src="/images/jingyi.png" alt="Yi Jing">
+    <img class="research-portrait" src="/images/jingyi.jpg" alt="Yi Jing">
   </figure>
 </section>
 
