@@ -46,9 +46,12 @@ redirect_from:
     </article>
     <article class="research-item research-item--stack">
       <h3>Previous research</h3>
-      <p>
-        Previously, I worked at <a href="https://keg.cs.tsinghua.edu.cn/">THUKEG</a> with Prof. <a href="https://keg.cs.tsinghua.edu.cn/persons/ljz/index.html">Juanzi Li</a>, conducted summer research at the University of Maryland with Prof. Jordan Boyd-Graber, interned at THBI, and participated in summer research at Oxford University's FMRIB, supervised by Prof. Qiyuan Tian and Prof. Wenchuan Wu.
-      </p>
+      <ul class="research-clean-list">
+        <li><strong><a href="https://keg.cs.tsinghua.edu.cn/">THUKEG</a></strong> — with Prof. <a href="https://keg.cs.tsinghua.edu.cn/persons/ljz/index.html">Juanzi Li</a>.</li>
+        <li><strong>University of Maryland</strong> — summer research with Prof. Jordan Boyd-Graber.</li>
+        <li><strong>THBI</strong> — research intern.</li>
+        <li><strong>Oxford University, FMRIB</strong> — summer research, supervised by Prof. Qiyuan Tian and Prof. Wenchuan Wu.</li>
+      </ul>
     </article>
   </div>
 </section>
