@@ -20,7 +20,7 @@ redirect_from:
     </p>
     <div class="research-pills">
       <a href="mailto:jingy22@mails.tsinghua.edu.cn">Email</a>
-      <a href="https://github.com/LeoJ-xy">GitHub</a>
+      <a href="https://github.com/Yii-Jing">GitHub</a>
       <a href="/publications/">Publications</a>
       <a href="/blogs/">Blogs</a>
     </div>
