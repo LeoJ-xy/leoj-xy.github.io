@@ -817,8 +817,8 @@ body {
 .research-detail__content p,
 .research-detail__content li {
   color: var(--research-text);
-  font-size: 1rem;
-  line-height: 1.82;
+  font-size: 0.95rem;
+  line-height: 1.8;
 }
 
 .research-detail__content p {
@@ -826,7 +826,8 @@ body {
 }
 
 .research-detail__content h2,
-.research-detail__content h3 {
+.research-detail__content h3,
+.research-detail__content h4 {
   margin: 1.7rem 0 0.65rem;
   color: var(--research-text);
   font-family: $sans-serif;
@@ -841,6 +842,13 @@ body {
 
 .research-detail__content h3 {
   font-size: 1.12rem;
+}
+
+/* h4 — the next level below h3: smaller and a touch lighter, tighter top gap */
+.research-detail__content h4 {
+  margin-top: 1.35rem;
+  font-size: 0.98rem;
+  font-weight: 680;
 }
 
 .research-detail__content ul,
