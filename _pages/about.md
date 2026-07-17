@@ -48,10 +48,10 @@ redirect_from:
     <article class="research-item">
       <p class="research-item__meta">Previously</p>
       <ul class="research-clean-list">
-        <li><strong><a href="https://keg.cs.tsinghua.edu.cn/">THUKEG</a></strong> — with Prof. <a href="https://keg.cs.tsinghua.edu.cn/persons/ljz/index.html">Juanzi Li</a>.</li>
-        <li><strong>University of Maryland</strong> — summer research with Prof. Jordan Boyd-Graber.</li>
-        <li><strong>THBI</strong> — research intern with Prof. Qiyuan Tian.</li>
-        <li><strong>Oxford University, FMRIB</strong> — summer research, supervised by Prof. Wenchuan Wu.</li>
+        <li><strong><a href="https://keg.cs.tsinghua.edu.cn/">THUKEG</a>, Tsinghua University</strong> — interpretability and reinforcement learning, with Prof. <a href="https://keg.cs.tsinghua.edu.cn/persons/ljz/index.html">Juanzi Li</a>.</li>
+        <li><strong>University of Maryland</strong> — human-centered AI, with Prof. Jordan Boyd-Graber.</li>
+        <li><strong>THBI, Tsinghua University</strong> — AI for neuroscience, with Prof. Qiyuan Tian.</li>
+        <li><strong>Oxford University, FMRIB</strong> — AI for neuroscience, with Prof. Wenchuan Wu.</li>
       </ul>
     </article>
   </div>
