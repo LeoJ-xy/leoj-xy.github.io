@@ -15,7 +15,7 @@ tags:
 
 ## TL;DR
 
-Ordinary supervised learning faces a batch of externally given samples; an agent's policy generates its own future states, observations, and data distribution. This endogeneity unfolds agent training along three basic coordinates: Reward determines the direction of learning, State determines where training takes place, and Credit determines which actions a result should be attributed to. The evolution from SFT to RL can be understood as training signals gradually entering the loop in which the model actually operates. The core competition of the future will come down to environments and verifiers: whoever can continuously manufacture experience that is aligned with the current policy, fine-grained enough in signal, and hard to exploit will be able to train longer-horizon agents.
+Agent training is a closed-loop experiment that changes as the policy updates. The policy decides which states are entered, the verifier compresses the environment result into a reward, and credit assignment then distributes the trajectory-level result to specific decisions; biases within this chain are amplified step by step through subsequent rollouts. Reliable training requires continuously sampling experience from the current policy, calibrating the verifier on the shifting data distribution, and improving attribution precision through process signals and same-state branching. Mid-training and SFT provide interface capability and a behavior prior, system constraints hold the safety boundary, and RL optimizes the final outcome in verifiable environments. Whether training can keep scaling depends on how much reliable, attributable experience a unit of environment cost can produce.
 
 ---
 
