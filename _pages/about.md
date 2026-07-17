@@ -10,8 +10,8 @@ redirect_from:
 
 <section class="research-hero research-reveal">
   <div>
-    <p class="research-eyebrow">AI Researcher · Tsinghua University · Tencent Hunyuan</p>
     <h1>Yi Jing</h1>
+    <p class="research-hero__tagline">AI researcher · Tsinghua University · incoming PhD, Peking University</p>
     <p class="research-lead">
       I'm a fourth-year undergraduate student at Tsinghua University and an incoming PhD student at the Institute of Computational Linguistics, Peking University, advised by Prof. <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=y2EaftAAAAAJ&amp;view_op=list_works">Zhifang Sui</a>. I'm currently a Research Intern (2026 Project UP) at Tencent Hunyuan's Large Language Model Department, working on <strong>post-training and LLM agents</strong>.
     </p>
@@ -77,7 +77,7 @@ redirect_from:
   <div class="research-section__head">
     <h2><span class="research-section__index">03</span>News</h2>
   </div>
-  <div class="research-list">
+  <div class="research-list research-list--timeline">
     <article class="research-item research-item--compact">
       <p class="research-item__meta">August 28–30, 2026</p>
       <h3>AI4Humanities 2026</h3>

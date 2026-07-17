@@ -17,8 +17,32 @@
   --research-accent:    #1f6f6b;
   --research-accent-ink:#134e4a;
   --research-accent-soft:#e9f4f1;
+  --research-mark:      #b8aea0;
+  --research-switch-bg: rgba(255, 255, 255, 0.55);
+  --research-shadow:    rgba(27, 30, 34, 0.14);
   --research-max: 940px;
   --research-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* Dark theme — follows the OS setting. Soft charcoal, never pure black/white;
+   the single teal accent is lifted ~25% so it stays legible on dark. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --research-bg:        #16181a;
+    --research-bg-tint:   #202327;
+    --research-surface:   #1d2023;
+    --research-text:      #e5e3dc;
+    --research-muted:     #a4a7ac;
+    --research-soft:      #8b8781;
+    --research-line:      #34373d;
+    --research-line-soft: rgba(255, 255, 255, 0.08);
+    --research-accent:    #5cb4ac;
+    --research-accent-ink:#7fccc3;
+    --research-accent-soft:rgba(92, 180, 172, 0.13);
+    --research-mark:      #5f636a;
+    --research-switch-bg: rgba(255, 255, 255, 0.06);
+    --research-shadow:    rgba(0, 0, 0, 0.45);
+  }
 }
 
 html { scroll-behavior: smooth; }
@@ -92,6 +116,16 @@ body {
   transform: scaleX(1);
 }
 
+/* current page — persistent teal underline, no box */
+.greedy-nav a.active {
+  color: var(--research-accent);
+}
+
+.greedy-nav a.active:after {
+  background: var(--research-accent);
+  transform: scaleX(1);
+}
+
 .greedy-nav button {
   background: var(--research-accent);
 }
@@ -115,7 +149,7 @@ body {
 
 .greedy-nav .hidden-links {
   border-color: var(--research-line);
-  box-shadow: 0 12px 28px rgba(27, 30, 34, 0.12);
+  box-shadow: 0 12px 28px var(--research-shadow);
 }
 
 /* ==========================================================================
@@ -189,17 +223,27 @@ body {
   object-fit: cover;
   object-position: center;
   background: var(--research-surface);
-  box-shadow: 0 24px 60px rgba(27, 30, 34, 0.14);
+  box-shadow: 0 18px 44px var(--research-shadow);
 }
 
 .research-hero h1 {
-  margin: 0 0 1.05rem;
+  margin: 0 0 0.1rem;
   color: var(--research-text);
   font-family: $sans-serif;
-  font-size: clamp(2.6rem, 6vw, 3.6rem);
-  font-weight: 780;
-  letter-spacing: -0.02em;
-  line-height: 1.03;
+  font-size: clamp(2.3rem, 5vw, 3.1rem);
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  line-height: 1.05;
+}
+
+/* one-line italic role, editorial style (Karpathy/al-folio) */
+.research-hero__tagline {
+  margin: 0.4rem 0 1.15rem;
+  color: var(--research-muted);
+  font-size: 1.05rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.4;
 }
 
 .research-lead {
@@ -265,7 +309,7 @@ body {
 .research-link-group a:not(:last-child):after {
   content: "/";
   margin-left: 0.7rem;
-  color: #b8aea0;
+  color: var(--research-mark);
   font-weight: 400;
 }
 
@@ -361,6 +405,44 @@ body {
 .research-list--two-column {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+}
+
+/* Timeline — a hairline spine down the meta/content boundary with an accent
+   node per item. Pure line + dot, no boxes. Reused by News and year blocks.
+   Geometry: items share a 9rem meta column + 1.5rem gap, so the spine sits at
+   9.75rem from the list's left edge; items carry a -1rem margin, so their dot
+   offset is +1rem from that. */
+.research-list--timeline {
+  position: relative;
+}
+
+.research-list--timeline::before {
+  content: "";
+  position: absolute;
+  top: 0.7rem;
+  bottom: 0.7rem;
+  left: 9.75rem;
+  width: 1px;
+  background: var(--research-line);
+}
+
+.research-list--timeline .research-item {
+  position: relative;
+  border-top: 0;
+}
+
+.research-list--timeline .research-item::before {
+  content: "";
+  position: absolute;
+  top: 1.3rem;
+  left: calc(10.75rem - 4.5px);
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background: var(--research-accent);
+  border: 2px solid var(--research-bg);
+  box-sizing: content-box;
+  z-index: 1;
 }
 
 .research-item {
@@ -488,6 +570,7 @@ body {
 }
 
 .research-card {
+  position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
@@ -497,16 +580,31 @@ body {
   border-radius: 14px;
   background: var(--research-surface);
   color: inherit;
-  transition: border-color 0.25s var(--research-ease),
-              transform 0.25s var(--research-ease),
-              box-shadow 0.25s var(--research-ease);
+  overflow: hidden;
+  transition: border-color 0.25s var(--research-ease);
+}
+
+/* quiet accent bar that reveals on hover — no shadow, no lift */
+.research-card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--research-accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s var(--research-ease);
 }
 
 .research-card:hover {
   border-color: var(--research-accent);
   text-decoration: none;
-  transform: translateY(-3px);
-  box-shadow: 0 16px 40px rgba(27, 30, 34, 0.08);
+}
+
+.research-card:hover::after {
+  transform: scaleX(1);
 }
 
 .research-card h3 {
@@ -569,7 +667,7 @@ body {
   padding: 0.12rem;
   border: 1px solid var(--research-line);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.55);
+  background: var(--research-switch-bg);
   color: var(--research-soft);
   line-height: 1;
 }
@@ -612,7 +710,7 @@ body {
 }
 
 .research-language-switch a[aria-current="page"] {
-  color: #fff;
+  color: var(--research-bg);
   background: var(--research-accent);
 }
 
@@ -690,7 +788,7 @@ body {
 .research-detail__meta-item:not(:last-child):after {
   content: "/";
   margin-left: 0.68rem;
-  color: #b8aea0;
+  color: var(--research-mark);
 }
 
 .research-detail__authors {
@@ -855,6 +953,12 @@ body {
 
   .research-item:hover {
     background: transparent;
+  }
+
+  /* timeline decoration doesn't fit the single-column stack — hide it */
+  .research-list--timeline::before,
+  .research-list--timeline .research-item::before {
+    display: none;
   }
 
   .research-list--two-column,
