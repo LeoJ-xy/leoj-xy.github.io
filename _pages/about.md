@@ -11,9 +11,9 @@ redirect_from:
 <section class="research-hero research-reveal">
   <div>
     <h1>Yi Jing</h1>
-    <p class="research-hero__tagline">AI researcher · Tsinghua University · incoming PhD, Peking University</p>
+    <p class="research-hero__tagline">AI researcher · Tsinghua University · research intern at Tencent Hunyuan</p>
     <p class="research-lead">
-      I'm a fourth-year undergraduate student at Tsinghua University and an incoming PhD student at the Institute of Computational Linguistics, Peking University, advised by Prof. <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=y2EaftAAAAAJ&amp;view_op=list_works">Zhifang Sui</a>. I'm currently a Research Intern (2026 Project UP) at Tencent Hunyuan's Large Language Model Department, working on <strong>post-training and LLM agents</strong>.
+      I'm a fourth-year undergraduate student at Tsinghua University and an incoming PhD student at the Institute of Computational Linguistics, Peking University, advised by Prof. <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=y2EaftAAAAAJ&amp;view_op=list_works">Zhifang Sui</a>. I'm currently a Research Intern (Project UP) at Tencent Hunyuan's Large Language Model Department, working on <strong>post-training and LLM agents</strong>.
     </p>
     <p class="research-hero__meta">
       Xinya College &amp; Computer Science, Tsinghua University. Based in Beijing, China.
@@ -43,7 +43,7 @@ redirect_from:
     <article class="research-item">
       <p class="research-item__meta">Now</p>
       <h3>Tencent Hunyuan</h3>
-      <p>Research Intern (2026 Project UP) at the Large Language Model Department.</p>
+      <p>Research Intern (Project UP) at the Large Language Model Department.</p>
     </article>
     <article class="research-item">
       <p class="research-item__meta">Previously</p>
