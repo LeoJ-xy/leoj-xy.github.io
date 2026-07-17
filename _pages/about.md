@@ -49,9 +49,9 @@ redirect_from:
       <p class="research-item__meta">Previously</p>
       <ul class="research-clean-list">
         <li><strong><a href="https://keg.cs.tsinghua.edu.cn/">THUKEG</a>, Tsinghua University</strong> — interpretability and reinforcement learning, with Prof. <a href="https://keg.cs.tsinghua.edu.cn/persons/ljz/index.html">Juanzi Li</a>.</li>
-        <li><strong><a href="https://umd.edu/">University of Maryland</a></strong> — human-centered AI, with Prof. <a href="https://boydgraber.org/">Jordan Boyd-Graber</a>.</li>
+        <li><strong><a href="https://www.umiacs.umd.edu/labs/clip">CLIP Lab</a>, University of Maryland</strong> — human-centered AI, with Prof. <a href="https://boydgraber.org/">Jordan Boyd-Graber</a>.</li>
         <li><strong><a href="https://brain.tsinghua.edu.cn/">THBI</a>, Tsinghua University</strong> — AI for neuroscience, with Prof. <a href="https://birthlab.github.io/en/index.html">Qiyuan Tian</a>.</li>
-        <li><strong>Oxford University, <a href="https://www.fmrib.ox.ac.uk/">FMRIB</a></strong> — AI for neuroscience, with Prof. <a href="https://www.win.ox.ac.uk/people/wenchuan-wu">Wenchuan Wu</a>.</li>
+        <li><strong><a href="https://www.fmrib.ox.ac.uk/">FMRIB</a>, Oxford University</strong> — AI for neuroscience, with Prof. <a href="https://www.win.ox.ac.uk/people/wenchuan-wu">Wenchuan Wu</a>.</li>
       </ul>
     </article>
   </div>
