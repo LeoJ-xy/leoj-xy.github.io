@@ -15,7 +15,7 @@ tags:
 
 ## TL;DR
 
-Agent training is a closed-loop experiment that changes as the policy updates. The policy decides which states are entered, the verifier compresses the environment result into a reward, and credit assignment then distributes the trajectory-level result to specific decisions; biases within this chain are amplified step by step through subsequent rollouts. Reliable training requires continuously sampling experience from the current policy, calibrating the verifier on the shifting data distribution, and improving attribution precision through process signals and same-state branching. Mid-training and SFT provide interface capability and a behavior prior, system constraints hold the safety boundary, and RL optimizes the final outcome in verifiable environments. Whether training can keep scaling depends on how much reliable, attributable experience a unit of environment cost can produce.
+Agent training can be unfolded through three questions — Reward, State, and Credit: how to define the objective using environment results, how to make the training data cover the states the current policy actually visits, and how to attribute a delayed outcome to specific actions. Together, the three determine whether the training loop can produce a reliable, sustainable learning signal.
 
 ---
 
